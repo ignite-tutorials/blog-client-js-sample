@@ -38,7 +38,7 @@ const fee = {
       },
     ],
     gas: "180000",
-  };  
+};  
 
 const result = await client.BlogBlog.tx.sendMsgCreatePost({
     value: {
