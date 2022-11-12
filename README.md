@@ -8,7 +8,7 @@ Above the v17.5.0 version, [https://git-scm.com/downloads.](https://nodejs.org/e
 Above the 1.8.3.1 version,[ https://git-scm.com/downloads.](https://git-scm.com/downloads)
 
 ## 2. Source Code
-### 2.1 tx.js
+### 2.1 Tx(index.js)
 ```js
 import { Client } from 'blog-client-ts';
 import { DirectSecp256k1HdWallet } from "@cosmjs/proto-signing";
@@ -52,7 +52,7 @@ const result = await client.BlogBlog.tx.sendMsgCreatePost({
 
 assertIsDeliverTxSuccess(result);
 ```
-### 2.2 query.js
+### 2.2 Query(query.js)
 ```js
 import { Client } from 'blog-client-ts';
 import { DirectSecp256k1HdWallet } from "@cosmjs/proto-signing";
