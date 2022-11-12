@@ -1,7 +1,11 @@
 # Blog ts-client JavaScript Library sample
 
 ## 1. Preconditions
-You should download and install git(https://git-scm.com/downloads) and Node.js(https://nodejs.org/en/download/).
+
+### 1.1 Node.js
+Above the v18.12.1 version, https://git-scm.com/downloads.
+### 1.2 Git
+Above the 2.38.1 version, https://git-scm.com/downloads.
 
 ## 2. Source Code
 ### 2.1 Tx
@@ -52,7 +56,6 @@ assertIsDeliverTxSuccess(result);
 ```js
 import { Client } from 'blog-client-ts';
 import { DirectSecp256k1HdWallet } from "@cosmjs/proto-signing";
-import { assertIsDeliverTxSuccess } from "@cosmjs/stargate";
 
 const mnemonic = "vast unlock traffic humor destroy crush decrease tornado heart color despair prize shell whip robust wheel magnet unusual suffer tent april identify creek outside";
 const prefix = "blog";
