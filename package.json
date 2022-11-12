@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-     "test": "node tx.js && node query.js"
+     "test": "node index.js && node query.js"
   },
   "repository": {
     "type": "git",
