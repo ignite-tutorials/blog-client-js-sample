@@ -3,12 +3,12 @@
 ## 1. Preconditions
 
 ### 1.1 Node.js
-Above the v18.12.1 version, https://git-scm.com/downloads.
+Above the v17.5.0 version, [https://git-scm.com/downloads.](https://nodejs.org/en/download/)
 ### 1.2 Git
-Above the 2.38.1 version, https://git-scm.com/downloads.
+Above the 1.8.3.1 version,[ https://git-scm.com/downloads.](https://git-scm.com/downloads)
 
 ## 2. Source Code
-### 2.1 Tx
+### 2.1 tx.js
 ```js
 import { Client } from 'blog-client-ts';
 import { DirectSecp256k1HdWallet } from "@cosmjs/proto-signing";
@@ -52,7 +52,7 @@ const result = await client.BlogBlog.tx.sendMsgCreatePost({
 
 assertIsDeliverTxSuccess(result);
 ```
-### 2.2 Query
+### 2.2 query.js
 ```js
 import { Client } from 'blog-client-ts';
 import { DirectSecp256k1HdWallet } from "@cosmjs/proto-signing";
@@ -92,10 +92,11 @@ git clone -b v0.29.3 https://github.com/cosmos/cosmjs
 ```
 cd blog-ts-client-sample 
 npm install ../cosmjs
-pm install https://github.com/ignite-tutorials/blog-ts-client/
+npm install https://github.com/ignite-tutorials/blog-ts-client/
 ```
 
 ### 3.4. Run
 ```
-npm run test
+node tx.js
+node query.js
 ```
