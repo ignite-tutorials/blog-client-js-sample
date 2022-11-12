@@ -1,0 +1,24 @@
+{
+  "name": "blog-ts-client-sample",
+  "version": "1.0.0",
+  "description": "ignite blog ts-client call sample",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+     "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ignite-tutorials/blog-ts-client-sample.git"
+  },
+  "keywords": ["cosmos","ignite","tutorials","blog","ts-client"],
+  "author": "",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/ignite-tutorials/blog-ts-client-sample/issues"
+  },
+  "homepage": "https://github.com/ignite-tutorials/blog-ts-client-sample#readme",
+  "dependencies": {
+    "blog-client-ts": "file:../blog-client-ts"
+  }
+}
