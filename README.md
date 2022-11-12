@@ -4,22 +4,24 @@
 You should download and install git(https://git-scm.com/downloads) and Node.js(https://nodejs.org/en/download/).
 
 ## Four Steps
-### Download blog-ts-client-sample
+### 1. Download blog-ts-client-sample
 ```
 git clone https://github.com/ignite-tutorials/blog-ts-client-sample.git
 ```
 
-### Download cosmjs v0.29.3
+### 2. Download cosmjs
 ```
 git clone -b v0.29.3 https://github.com/cosmos/cosmjs
 ```
 
-### Install dependencies
+### 3. Install dependencies
 ```
 cd blog-ts-client-sample 
 npm install ../cosmjs
 pm install https://github.com/ignite-tutorials/blog-ts-client/
 ```
 
-### Run
-`npm run test`
+### 4. Run
+```
+npm run test
+```
