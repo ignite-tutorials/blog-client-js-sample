@@ -97,6 +97,5 @@ npm install https://github.com/ignite-tutorials/blog-ts-client/
 
 ### 3.4. Run
 ```
-node tx.js
-node query.js
+npm run test
 ```
