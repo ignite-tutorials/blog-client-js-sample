@@ -7,7 +7,11 @@
 `git clone -b v0.29.3 https://github.com/cosmos/cosmjs`
 
 ## npm install
-`cd blog-ts-client-sample && npm install ../cosmjs && npm install https://github.com/ignite-tutorials/blog-ts-client/`
+```
+cd blog-ts-client-sample 
+npm install ../cosmjs
+pm install https://github.com/ignite-tutorials/blog-ts-client/
+```
 
 ## npm run test
 `npm run test`
