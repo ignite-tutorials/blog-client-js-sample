@@ -10,7 +10,7 @@ Above the 1.8.3.1 version,[ https://git-scm.com/downloads.](https://git-scm.com/
 ## 2. Source Code
 ### 2.1 Tx(index.js)
 ```js
-import { Client } from 'blog-client-ts';
+import { Client } from 'blog-client-js';
 import { DirectSecp256k1HdWallet } from "@cosmjs/proto-signing";
 import { assertIsDeliverTxSuccess } from "@cosmjs/stargate";
 
@@ -54,7 +54,7 @@ assertIsDeliverTxSuccess(result);
 ```
 ### 2.2 Query(query.js)
 ```js
-import { Client } from 'blog-client-ts';
+import { Client } from 'blog-client-js';
 import { DirectSecp256k1HdWallet } from "@cosmjs/proto-signing";
 
 const mnemonic = "vast unlock traffic humor destroy crush decrease tornado heart color despair prize shell whip robust wheel magnet unusual suffer tent april identify creek outside";
@@ -78,9 +78,9 @@ console.log(result);
 ```
 
 ## 3. Four Steps
-### 3.1. Download blog-ts-client-sample
+### 3.1. Download blog-client-js-sample
 ```
-git clone https://github.com/ignite-tutorials/blog-ts-client-sample.git
+git clone https://github.com/ignite-tutorials/blog-client-js-sample.git
 ```
 
 ### 3.2. Download cosmjs
@@ -90,9 +90,9 @@ git clone -b v0.29.3 https://github.com/cosmos/cosmjs
 
 ### 3.3. Install dependencies
 ```
-cd blog-ts-client-sample 
+cd blog-client-js-sample 
 npm install ../cosmjs
-npm install https://github.com/ignite-tutorials/blog-ts-client/
+npm install https://github.com/ignite-tutorials/blog-client-js/
 ```
 
 ### 3.4. Run
