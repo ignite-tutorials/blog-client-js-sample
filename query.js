@@ -1,4 +1,4 @@
-import { Client } from 'blog-client-ts';
+import { Client } from 'blog-client-js';
 import { DirectSecp256k1HdWallet } from "@cosmjs/proto-signing";
 
 const mnemonic = "vast unlock traffic humor destroy crush decrease tornado heart color despair prize shell whip robust wheel magnet unusual suffer tent april identify creek outside";
