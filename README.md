@@ -1,4 +1,4 @@
-# Blog ts-client JavaScript Library sample
+# Blog Client JavaScript Library Sample
 
 ## 1. Preconditions
 
