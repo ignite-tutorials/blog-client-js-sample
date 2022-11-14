@@ -1,4 +1,4 @@
-import { Client } from 'blog-client-ts';
+import { Client } from 'blog-client-js';
 import { DirectSecp256k1HdWallet } from "@cosmjs/proto-signing";
 import { assertIsDeliverTxSuccess } from "@cosmjs/stargate";
 
